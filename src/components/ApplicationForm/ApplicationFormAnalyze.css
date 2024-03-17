@@ -1,0 +1,33 @@
+.circle-animation {
+  width: 250px;
+  height: 250px;
+  border-radius: 50%;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  border: 2px solid #fff; /* Change the border color as needed */
+  opacity: 0.7;
+  animation: expand 3s infinite linear;
+}
+
+.circle-animation.delay-150 {
+  animation-delay: 2s;
+}
+
+.circle-animation.delay-300 {
+  animation-delay: 4s;
+}
+
+@keyframes expand {
+  0% {
+    width: 260px; /* Change the starting point of the circle*/
+    height: 260px; /* Change the starting point of the circle*/
+    opacity: 0.7;
+  }
+  100% {
+    width: 1240px;
+    height: 1240px;
+    opacity: 0;
+  }
+}

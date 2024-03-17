@@ -1,0 +1,228 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+    font-family: 'Frutiger';
+    src: url('/public/fonts/frutiger.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+  }
+  
+
+/* @layer base {
+    body {
+      @apply font-frutiger;
+    }
+  } */
+
+html {
+    scroll-behavior: smooth;
+  }
+
+.paragraph-01-regular{
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 14px;
+}
+
+.paragraph-01-semibold{
+    font-size: 14px;
+    font-weight: 600;
+}
+
+.paragraph-01-underline {
+    font-size: 14px;
+    font-weight: 400;
+    text-decoration: underline;
+}
+
+.paragraph-02-regular {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 20px;
+}
+
+.paragraph-02-semibold {
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 20px;
+}
+
+.paragraph-02-underline {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 20px;
+    text-decoration: underline;
+}
+
+.paragraph-03-regular {
+    font-size: 19px;
+    font-weight: 400;          
+    line-height: 23px;
+}
+
+.paragraph-03-semibold {
+    font-size: 19px;
+    font-weight: 600;
+    line-height: 23px;
+}
+
+.paragraph-03-underline {
+    font-size: 19px;
+    font-weight: 400;
+    line-height: 23px;
+    text-decoration: underline;
+}
+
+.display-01-semibold {
+    font-size: 72px;
+    font-weight: 600;
+    line-height: 80px;
+}
+
+.display-01-bold {
+    font-size: 72px;
+    font-weight: 700;
+    line-height: 80px;
+}
+
+.display-01-extrabold {
+    font-size: 72px;
+    font-weight: 800;
+    line-height: 80px;
+}
+
+.display-02-semibold {
+    font-size: 60px;
+    font-weight: 600;
+    line-height: 72px;
+}
+
+.display-02-bold {
+    font-size: 60px;
+    font-weight: 700;
+    line-height: 72px;
+}
+
+.display-02-extrabold {
+    font-size: 60px;
+    font-weight: 800;
+    line-height: 72px;
+}
+
+.heading-01-semibold {
+    font-size: 48px;
+    font-weight: 600;
+    line-height: 58px;
+}
+
+.heading-01-bold {
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 58px;
+}
+
+.heading-01-extrabold {
+    font-size: 48px;
+    font-weight: 800;
+    line-height: 58px;
+}
+
+.heading-02-semibold {
+    font-size: 40px;
+    font-weight: 600;
+    line-height: 48px;
+}
+
+.heading-02-bold {
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 48px;
+}
+
+.heading-02-extrabold {
+    font-size: 40px;
+    font-weight: 800;
+    line-height: 48px;
+}
+
+.heading-03-semibold {
+    font-size: 33px;
+    font-weight: 600;
+    line-height: 40px;
+}
+
+.heading-03-bold {
+    font-size: 33px;
+    font-weight: 700;
+    line-height: 40px;
+}
+
+.heading-03-extrabold {
+    font-size: 33px;
+    font-weight: 800;
+    line-height: 40px;
+}
+
+.heading-04-semibold {
+    font-size: 28px;
+    font-weight: 600;
+    line-height: 34px;
+}
+
+.heading-04-bold {
+    font-size: 28px;
+    font-weight: 700;
+    line-height: 34px;
+}
+
+.heading-04-extrabold {
+    font-size: 28px;
+    font-weight: 800;
+    line-height: 34px;
+}
+
+.heading-05-semibold {
+    font-size: 23px;
+    font-weight: 600;
+    line-height: 28px;
+}
+
+.heading-05-bold {
+    font-size: 23px;
+    font-weight: 700;
+    line-height: 28px;
+}
+
+.heading-05-extrabold {
+    font-size: 23px;
+    font-weight: 800;
+    line-height: 28px;
+}
+
+.subheading-regular {
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 24px;
+}
+
+.subheading-semibold {
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 24px;
+}
+
+.subheading-underline {
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 24px;
+    text-decoration: underline;
+}
+
+.subparagraph-regular {
+    font-size: 12px;
+    font-weight: 400px;
+    line-height: 14px;
+}
+
