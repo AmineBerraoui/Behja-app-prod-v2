@@ -58,7 +58,7 @@ function App() {
             path="/applicationformdocsupload"
             Component={ApplicationFormDocsUpload}
           />
-          <Route path="/homefinder" Component={HomeFinder} />open
+          <Route path="/homefinder" Component={HomeFinder} />
         </Routes>
       </Router>
     </MyProvider>

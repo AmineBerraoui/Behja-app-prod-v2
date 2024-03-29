@@ -71,7 +71,47 @@ const NotJustaServiceSection = () => {
           </div>
         </div>
       </div>
-      
+
+      <div className="w-full bg-gradient-to-b from-primary-400 to-primary-50 rounded-t-[20px] lg:hidden">
+        <Slider {...settings}>
+          <div className="relative w-full h-[300px] ">
+            <img
+              src="./assets/woman-1.png"
+              alt="behja person"
+              className="absolute left-0 right-0 bottom-[-10px] m-auto "
+            />
+          </div>
+          <div className="relative w-full h-[300px] ">
+            <img
+              src="./assets/homme-1.png"
+              alt="behja person"
+              className="absolute left-0 right-0 bottom-[-10px] m-auto   "
+            />
+          </div>
+          <div className="relative w-full h-[300px] ">
+            <img
+              src="./assets/woman-2.png"
+              alt="behja person"
+              className="absolute left-0 right-0 bottom-[-10px] m-auto   "
+            />
+          </div>
+          <div className="relative w-full h-[300px] ">
+            <img
+              src="./assets/homme-2.png"
+              alt="behja person"
+              className="absolute left-0 right-0 bottom-[-10px] m-auto   "
+            />
+          </div>
+          <div className="relative w-full h-[300px] ">
+            <img
+              src="./assets/woman-3.png"
+              alt="behja person"
+              className="absolute left-0 right-0 bottom-[-10px] m-auto   "
+            />
+          </div>
+        </Slider>
+      </div>
+
       <p
         className="display-01-semibold text-center mt-10"
         style={{
